@@ -1,0 +1,28 @@
+extends index.pug
+
+block content
+    h2 Trade Share
+    p
+        | Buy Share from Reserve or Sell to it
+
+    form(method='POST' action='/share')
+    
+        div.form-group
+            label(for='amount') amount:
+            input.form-control(type='text', placeholder='1' name='amount')
+
+        div.form-group
+            label(for='passphrase') Passphrase:
+            input.form-control(type='text', placeholder='passphrase' name='passphrase')
+
+        div.form-group
+
+            label(for='type') Type:
+                |  
+                select#type-select(name='type')
+                    option(value='Buy') Buy
+                    option(value='Sell') Sell
+
+        button.btn.btn-info(type='submit') Submit
+    
+    br 

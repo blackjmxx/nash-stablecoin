@@ -1,0 +1,23 @@
+extends index.pug
+
+block content
+    h2 Bond Transfer
+    p
+        | Transfer Ownership of bonds to others
+
+    form(method='POST' action='/bondTransfer')
+    
+        div.form-group
+            label(for='bondId') Bond Id:
+            input.form-control(type='text', placeholder='bondId' name='bondId')
+        div.form-group
+            label(for='newOwner') New Owner:
+            input.form-control(type='text', placeholder='newOwner' name='newOwner')
+            
+        div.form-group
+            label(for='passphrase') Passphrase:
+            input.form-control(type='text', placeholder='passphrase' name='passphrase')
+
+        button.btn.btn-danger(type='submit') Send
+    
+    br 

@@ -1,0 +1,26 @@
+{
+  "name": "nash",
+  "version": "1.0.0",
+  "description": "nash_an algorithmic stablecoin implemented by lisk-sdk",
+  "main": "./index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kasra Abbaszadeh <kasraabbaszadeh@gmail.com>",
+  "keywords": [
+    "lisk",
+    "blockchain",
+    "stablecoin"
+  ],
+  "license": "Apache-2.0",
+  "dependencies": {
+    "@liskhq/lisk-api-client": "^3.0.1",
+    "@liskhq/lisk-passphrase": "^3.0.0",
+    "@liskhq/lisk-transactions": "^3.0.1",
+    "lisk-sdk": "^3.0.1"
+  },
+  "devDependencies": {
+    "jest": "^25.1.0",
+    "jest-when": "^2.7.0"
+  }
+}

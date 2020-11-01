@@ -1,0 +1,94 @@
+:root {
+
+
+
+    --color-text: rgb(2, 2, 49);
+    --color-navbar-bg: #0C152E;
+    --color-navbar-bg-focus: rgb(111, 113, 116);
+    --color-navbar-text: rgb(248, 246, 246);
+    --color-right-menu-bg: #fff;
+    --height-navbar: 105px;
+    --height-drawer: 2.5rem;
+    --height-toolbar: 2.5rem;
+    --height-to-body: var(--height-navbar);
+    --height-min-body: calc(100vh - var(--height-to-body));
+    --height-nav: var(--height-min-body);
+    --height-nav-mobile: calc(var(--height-min-body) - var(--height-toolbar));
+    --height-nav-panel: calc(var(--height-nav) - var(--height-drawer));
+    --height-nav-panel-mobile: calc(var(--height-nav-mobile) - var(--height-drawer));
+    --width-nav: 16rem;
+    --width-doc: 54rem;
+    --width-doc-mobile: 40rem;
+
+    
+}
+
+html,
+body {
+    height: 100%;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-size-adjust: 100%;
+}
+
+body {
+    
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--color-text);
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+b,
+dt,
+strong {
+    font-weight: 500;
+}
+
+.form-control::-webkit-input-placeholder, .form-control::placeholder, .form-control::-moz-placeholder {
+    color: #bbb;
+}
+
+.container {
+
+    margin-top: 50px;
+    margin-left: 150px;
+}
+
+.pending, .pending pre {
+    background-color: darkgrey;
+    color: white;
+}
+
+.ongoing, .ongoing pre {
+    background-color: darkgoldenrod;
+    color: white;
+}
+.alarm, .alarm pre {
+    background-color: purple;
+    color: white;
+}
+.success, .success pre {
+    background-color: darkgreen;
+    color: white;
+}
+.fail, .fail pre {
+    background-color: darkred;
+    color: white;
+}

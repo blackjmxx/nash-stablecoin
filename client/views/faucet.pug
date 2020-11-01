@@ -1,0 +1,25 @@
+extends index.pug
+
+block content
+    h2 Faucet
+    p
+        | Send funds to account from Genesis
+
+    form(method='POST' action='/faucet')
+        div.form-group
+            label(for='address') Address:
+            input.form-control(type='text', placeholder='address' name='address')
+        div.form-group
+            label(for='amount') Amount :
+            input.form-control(type='text', placeholder='10' name='amount')
+        div.form-group
+            label(for='type') Type:
+                |  
+                select#type-select(name='type')
+                    option(value='lisk') Lisk
+                    option(value='nash') Nash
+            
+
+        button.btn.btn-success(type='submit') Fund
+    
+    br 

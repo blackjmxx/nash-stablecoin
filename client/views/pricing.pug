@@ -1,0 +1,14 @@
+extends index.pug
+
+block content
+    h2 Pricing
+    p
+        | Submit a random price for nash to test application
+
+    form(method='POST' action='/pricing')
+        div.form-group
+            label(for='price') Price ([0.9-1.1]):
+            input.form-control(type='text', placeholder='1' name='price')
+        button.btn.btn-info(type='submit') Submit
+    
+    br 

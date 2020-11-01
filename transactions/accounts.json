@@ -1,0 +1,42 @@
+{
+  "genesis": {
+    "address": "11237980039345381032L",
+    "passphrase": "creek own stem final gate scrub live shallow stage host concert they"
+  },
+
+  "manager": {
+    "address": "11237980039345381032L",
+    "passphrase": "creek own stem final gate scrub live shallow stage host concert they"
+  },
+
+  "Example 1": {
+    "address": "10449335989286916826L",
+    "publicKey": "f1b7ac84ac0b814c853e6b5789a758c590472ee3fa94fa61a2809c22f251165e",
+    "passphrase": "water clever produce scrub more fatal shine device silly conduct flee major",
+    "privateKey": "8054a8f145ebf17b47a43f6cadc18908a60885b0cd41e2ae5969f876110a45faf1b7ac84ac0b814c853e6b5789a758c590472ee3fa94fa61a2809c22f251165e"
+  },
+
+  "Example 2": {
+    "address": "7884274894776136080L",
+    "publicKey": "1e413dccd3ab3c6f6968f2cf1cd535db4d1c31ead3421b64fb2241392c488e32",
+    "passphrase": "brick fire noodle grace tail basic vintage detail essay early want amused",
+    "privateKey": "ab349fc723aca7e5bf9dd20df88e1b7a44c84fad86da31f3c830e970708505281e413dccd3ab3c6f6968f2cf1cd535db4d1c31ead3421b64fb2241392c488e32"
+  },
+
+  "Example 3": {
+    "address": "13213254544692549028L",
+    "publicKey": "9bd4e6e8fc02c6d1c5c6eb3930f7300fc6d8a3ff1c2f1167f631c1f96c8aeab2",
+    "passphrase": "blood layer tragic three fame surface shrug palace fiscal shrimp fog tip",
+    "privateKey": "e6fc1e76891b45eb6b3c768353d576cf81076138bfa2501cfd1f3b13dee5f6e99bd4e6e8fc02c6d1c5c6eb3930f7300fc6d8a3ff1c2f1167f631c1f96c8aeab2"
+  },
+
+  "Example 4": {
+    "address": "18319306067312521929L",
+    "publicKey": "ab23544efe5cbb70457f8b3076583fd5b34730b3a9acf9d25fcaac0cbd7109ce",
+    "passphrase": "object panel depth hill balcony army render joy cactus finger fresh combine",
+    "privateKey": "78906c28e7ea31a1180526e876dfcf790807e7bfc72425622b21a2913576d714ab23544efe5cbb70457f8b3076583fd5b34730b3a9acf9d25fcaac0cbd7109ce"
+  }
+
+
+}
+

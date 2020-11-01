@@ -1,0 +1,10 @@
+extends index.pug
+
+block content
+    h2 Generate new account
+
+    p
+        | Refresh page to get new account
+
+    pre
+        code(class='language-json')= JSON.stringify(accountCredentials, null, 2)
